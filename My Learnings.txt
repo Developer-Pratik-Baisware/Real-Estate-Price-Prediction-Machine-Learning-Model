@@ -1,0 +1,33 @@
+
+
+>> Install Pip : python -m pip install pip==18.0
+
+>> Upgrade pip : pip3 install --upgrade pip
+
+>> Install some files : pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
+
+>> Importing the Installed files : python -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
+
+>> Download Data from housing data boston uci ml repository
+
+>> Converted Data in xl file using convert text to collumn function.
+
+>> Pratik Finally got data in a order by paste transpose
+
+>> Import pandas
+
+>> Brought the housing data
+
+>> Run housing.head() method	<< to find missing data
+
+>> Run housing['CHAS'].value_count() << This method will tell no of entry's containing 0's and 1's
+
+>> Run housing.describe()	<< gives count mean std min 25% max etc
+
+>> import matplotlib.pyplot as plt	<< import lib
+
+>> Run housing.hist(bins=50, figsize=(20, 15))	<< Histogram plot to get all the insights
+
+>> Pratik slice down 20% data(test set) for testing the model and use remaining 80% data for trainging the model.
+
+>> 
